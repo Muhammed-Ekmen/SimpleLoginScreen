@@ -7,7 +7,7 @@
 
 /*
 Simple Login Screen.
-I have created this project for see the usage of Delegate,AnimatedButton with extentions and ErrorHandling
+I have created this project for see the usage of Delegate,AnimatedButton with extentions and ErrorHandling also HorizantalStack/VerticalStack
  
 -+-+-+-+-+
 DELEGATE USAGE
@@ -37,6 +37,10 @@ SHAKE ANIMATION BUTTON USAGE
     * we have created custom login Error enums and an extention for checking the password and email format.
     * after that, in the loginbutton action, we have used the logIn function with do,try,catch. when we catch the any error, we have shown
     the error with alert.
+
+
+HORIZANTALSTACK / VERTICAL STACK
+    * These are kind of the Column and row. We can wrap more thanone compents.
 */
 
 import UIKit
